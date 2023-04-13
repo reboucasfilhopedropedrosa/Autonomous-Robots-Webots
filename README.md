@@ -5,5 +5,5 @@ Practices for using the Webots simulator for use in the mobile robotics area, in
 [![Watch the video - Autonomous-Robots-Webot Simulator ]()
 
 
-[![Watch the video](https://img.youtube.com/vi/aexTVPNIOIc/maxresdefault.jpg)](https://youtu.be/aexTVPNIOIc)
+[![Watch the video](https://img.youtube.com/vi/T-aexTVPNIOIc/maxresdefault.jpg)](https://youtu.be/aexTVPNIOIc)
 
