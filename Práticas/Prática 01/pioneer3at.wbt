@@ -1,0 +1,40 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/appearances/protos/SandyGround.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/adept/pioneer3/protos/Pioneer3at.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.14820996640283304 0.1467375512752982 0.9780091497039279 1.6030304197180432
+  position -0.9892585673260526 -33.719056588906405 10.811261691157453
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 50 50
+  floorAppearance SandyGround {
+  }
+  wallHeight 0.5
+}
+Pioneer3at {
+  hidden position_0_0 2.6995376885552606e-12
+  hidden position_0_1 2.8011916908383986e-12
+  hidden position_0_2 -5.465441432761509e-10
+  hidden position_0_3 -5.464835994001592e-10
+  hidden translation_1 -0.1331 0.197 0.11
+  hidden rotation_1 0.5773516024652523 -0.5773476024680071 -0.5773516026263797 2.0944049998388734
+  hidden translation_2 -0.1331 -0.197 0.11
+  hidden rotation_2 0.5773516024652123 -0.5773476024679671 -0.5773516026264599 2.0944049998387535
+  hidden translation_3 0.1331 0.197 0.11
+  hidden rotation_3 0.577351602676696 -0.5773476026794473 -0.5773516022034976 2.094405000473195
+  hidden translation_4 0.1331 -0.197 0.11
+  hidden rotation_4 0.5773516026766721 -0.5773476026794231 -0.5773516022035459 2.094405000473123
+  translation -7.176914444684268e-12 5.942233529437533e-11 -0.002388939354844022
+  rotation -0.014915680447708234 0.9998887550506607 1.4626487079806883e-07 4.918357816880942e-05
+}

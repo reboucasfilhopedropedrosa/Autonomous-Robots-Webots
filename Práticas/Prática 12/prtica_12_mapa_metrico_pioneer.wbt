@@ -1,0 +1,54 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/appearances/protos/MarbleTiles.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/factory/containers/protos/CardboardBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/adept/pioneer3/protos/Pioneer3dx.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/appearances/protos/RedBricks.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.22225381357805454 0.10525191599453639 0.9692911206286223 2.2809402303691906
+  position 5.13226356824718 -5.8875547407141395 3.529596056393209
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 15 15
+  floorAppearance MarbleTiles {
+  }
+  wallHeight 0.6
+  wallAppearance RedBricks {
+  }
+}
+Pioneer3dx {
+  hidden position_0_0 2.9672316922317382e-05
+  hidden position_0_1 64.74209921736373
+  hidden position_0_2 64.74178178020645
+  hidden linearVelocity_0 -0.05022178588733792 0.030000365989152948 -6.319140279627676e-13
+  hidden angularVelocity_0 -2.5960833827173267e-08 1.5569589797036253e-08 -4.709797715984468e-05
+  hidden rotation_1 0.577361690070071 -0.5773445586651874 -0.5773445586641751 2.0943778687645587
+  hidden position_1_0 -142.95655806669046
+  hidden linearVelocity_1 -0.0502249665328647 0.029995043569451266 -6.981280025495644e-12
+  hidden angularVelocity_1 -3.573439922438642e-08 2.141154113624253e-08 -4.743534649076496e-05
+  hidden rotation_2 -1 0 0 4.72648130873956
+  hidden linearVelocity_2 -0.050225185244716385 0.029994677500933837 -7.555343192540893e-12
+  hidden angularVelocity_2 -0.7995726574423037 -1.3395086364821482 -7.838064897861642e-05
+  hidden rotation_4 -0.16655197797025528 0.16655204526973516 -0.9718646278421 1.5993311606573672
+  hidden linearVelocity_4 -0.05022696036914028 0.030006857974532675 4.899214371564082e-09
+  hidden angularVelocity_4 -0.3077774066134326 -0.515048397674615 -4.928239000847717e-05
+  hidden rotation_9 -0.16640199609246667 0.16640206338611704 -0.9719160092298539 1.599278314654075
+  hidden linearVelocity_9 -0.05021361696924702 0.02999888462918178 -4.894580446452899e-09
+  hidden angularVelocity_9 -0.3077758807829634 -0.5150458442807281 -4.928237588267027e-05
+  translation 1.4357166049034689 1.1221697553390406 0.09481477862209639
+  rotation 0.017310297775426045 -0.00477983215439726 0.9998387403954208 2.603043976675869
+  controller "<extern>"
+}
+CardboardBox {
+  translation -0.88 -1.45 0.3
+}
